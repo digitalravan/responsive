@@ -484,3 +484,6 @@ img {
     width: 450px;
   }
 }
+.red-text {
+  color: rgb(246, 82, 82);
+}
