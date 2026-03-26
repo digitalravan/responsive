@@ -39,15 +39,18 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Digital Ravan</span><br> Content Creator</h1>
+                    <h1 class="home__title">Hi,<br>I'am <span  id="typing" class="home__title-color">Digital Ravan</span><br> Content Creator</h1>
 
                     <a href="#" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.linkedin.com/in/abhay-singh-rajawat-9b2b84292/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="https://github.com/digitalravan" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://youtube.com/@digitalravan-anime" target="_blank" class="home__social-icon">
+  <i class='bx bxl-youtube'></i>
+</a>
                 </div>
 
                 <div class="home__img">
@@ -126,7 +129,7 @@
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
+                                <span class="skills__name">Video editing</span>
                             </div>
                             <div class="skills__bar skills__ux">
                                 
@@ -148,22 +151,22 @@
                 <h2 class="section-title">Work</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="" class="work__img">
+                    <a href="assets/img/work1.jpg" class="work__img">
                         <img src="assets/img/work1.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a href="assets/img/work2.jpg" class="work__img">
                         <img src="assets/img/work2.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a href="assets/img/work3.jpg" class="work__img">
                         <img src="assets/img/work3.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a href="assets/img/work4.jpg" class="work__img">
                         <img src="assets/img/work4.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a href="assets/img/work5.jpg" class="work__img">
                         <img src="assets/img/work5.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a href="assets/img/work6.jpg" class="work__img">
                         <img src="assets/img/work6.jpg" alt="">
                     </a>
                 </div>
@@ -174,27 +177,25 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="https://formspree.io/f/maqlwedn"
-                              method="POST" class="contact__form">
+                    <form action="" class="contact__form">
                         <input type="text" placeholder="Name" class="contact__input">
-                        <input type="email" placeholder="Email" class="contact__input">
-                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea> 
-                        <input type="hidden" name="_next" value="https://digitalravan.in/thankyou.html">
-                       <button type="submit" class="contact__button button">Submit</button>
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
                     </form>
                 </div>
-            </section>
+            </section> 
         </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Digital Ravan</p>
             <div class="footer__social">
-                <a href="https://www.facebook.com/abhaysingh.rajawat.923" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/digitalravan.ai" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://x.com/digitalravan" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p class="footer__copy">&#169; Digital Ravan. All rigths reserved</p>
+            <p class="footer__copy">&#169; Digitalravan. All rigths reserved</p>
         </footer>
 
 
@@ -203,5 +204,10 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+
+        <div id="popup" class="popup">
+  <span id="close">&times;</span>
+  <img id="popup-img">
+</div>
     </body>
 </html>
